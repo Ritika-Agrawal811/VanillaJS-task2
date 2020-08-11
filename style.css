@@ -207,7 +207,7 @@ input::placeholder{
 }
     
     .form{
-    width:215px;
+    width:230px;
     padding: 20px 30px 30px 30px;
     background-color:rgba(0,0,0,0.3);
     position:absolute;
@@ -264,7 +264,7 @@ input::placeholder{
 
 .sideDesign{
     position:absolute;
-    width:50px;
+    width:60px;
     border:1px solid #000;
     margin-left:195px;
     margin-top:-20px;
