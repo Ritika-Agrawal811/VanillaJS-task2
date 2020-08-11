@@ -199,7 +199,7 @@ input::placeholder{
      margin-left:60px;
 }
 
-@media(max-width:424px){
+@media(max-width:340px){
     
     body{
     background-image:linear-gradient(60deg,#74ebd5,#acb6e5);
