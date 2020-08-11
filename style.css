@@ -1,0 +1,296 @@
+
+body{
+    background-image:linear-gradient(60deg,#74ebd5,#acb6e5);
+}
+
+
+.form{
+    width:300px;
+    padding: 30px 50px 50px 50px;
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:15px;
+    
+    
+}
+
+p{
+    margin-bottom:5px;
+    margin-top:-2px;
+    color:red;
+}
+
+
+input{
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+    height:30px;
+    width:190px;
+    box-shadow:1px 1px 5px rgba(255,255,255,0.5);
+    background:transparent;
+}
+
+input[type=submit]{
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:16px;
+    height:35px;
+    background:linear-gradient(60deg,#74ebd5,#acb6e5);
+    box-shadow: none;
+    
+}
+
+h2{
+    font-size:36px;
+    color:#fff;
+}
+
+label{
+    color:#fff;
+    font-size:18px;
+}
+
+input::placeholder{
+    color:#000;
+    font-weight:bold;
+}
+
+.sideDesign{
+    position:absolute;
+    width:105px;
+    border:1px solid #000;
+    margin-left:245px;
+    margin-top:-30px;
+    height:100%;
+    border-radius:0 15px 15px 0;
+    background-color:rgba(0,0,0,0.9);
+
+    
+}
+
+.diamonds{
+    width:30px;
+    height:30px;
+    border:1px solid #000;
+    transform:rotate(45deg);
+    position:absolute;
+    background:linear-gradient(60deg,#74ebd5,#acb6e5);
+
+  
+}
+
+.pos1{
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.pos2{
+     margin-top:15px;
+     margin-left:60px;
+}
+
+.pos3{
+    margin-top:65px;
+    margin-left:10px;
+}
+
+.pos4{
+     margin-top:65px;
+     margin-left:60px;
+}
+
+.pos5{
+    margin-top:115px;
+    margin-left:10px;
+}
+
+.pos6{
+     margin-top:115px;
+     margin-left:60px;
+}
+
+.pos7{
+    margin-top:165px;
+    margin-left:10px;
+}
+
+.pos8{
+     margin-top:165px;
+     margin-left:60px;
+}
+
+.pos9{
+    margin-top:215px;
+    margin-left:10px;
+}
+
+.pos10{
+     margin-top:215px;
+     margin-left:60px;
+}
+
+.pos11{
+    margin-top:265px;
+    margin-left:10px;
+}
+
+.pos12{
+     margin-top:265px;
+     margin-left:60px;
+}
+
+.pos13{
+    margin-top:315px;
+    margin-left:10px;
+}
+
+.pos14{
+     margin-top:315px;
+     margin-left:60px;
+}
+.pos15{
+    margin-top:365px;
+    margin-left:10px;
+}
+
+.pos16{
+     margin-top:365px;
+     margin-left:60px;
+}
+.pos17{
+    margin-top:415px;
+    margin-left:10px;
+}
+
+.pos18{
+     margin-top:415px;
+     margin-left:60px;
+}
+.pos19{
+    margin-top:465px;
+    margin-left:10px;
+}
+
+.pos20{
+     margin-top:465px;
+     margin-left:60px;
+}
+.pos21{
+    margin-top:515px;
+    margin-left:10px;
+}
+
+.pos22{
+     margin-top:515px;
+     margin-left:60px;
+}
+.pos23{
+    margin-top:565px;
+    margin-left:10px;
+}
+
+.pos24{
+     margin-top:565px;
+     margin-left:60px;
+}
+
+@media(max-width:424px){
+    
+    body{
+    background-image:linear-gradient(60deg,#74ebd5,#acb6e5);
+     
+}
+    
+    .form{
+    width:215px;
+    padding: 20px 30px 30px 30px;
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+    top:48%;
+    left:45%;
+    transform:translate(-50%,-50%);
+    border-radius:15px;
+    
+    
+}
+
+p{
+    margin-bottom:5px;
+    margin-top:-2px;
+    color:red;
+}
+
+
+input{
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+    height:25px;
+    width:150px;
+    box-shadow:1px 1px 5px rgba(255,255,255,0.5);
+    background:transparent;
+}
+
+input[type=submit]{
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:16px;
+    height:35px;
+    background:linear-gradient(60deg,#74ebd5,#acb6e5);
+    box-shadow: none;
+    
+}
+
+h2{
+    font-size:36px;
+    color:#fff;
+}
+
+label{
+    color:#fff;
+    font-size:18px;
+}
+
+input::placeholder{
+    color:#000;
+    font-weight:bold;
+}
+
+.sideDesign{
+    position:absolute;
+    width:50px;
+    border:1px solid #000;
+    margin-left:195px;
+    margin-top:-20px;
+    height:100%;
+    border-radius:0 15px 15px 0;
+    background-color:rgba(0,0,0,0.9);
+
+    
+}
+
+.diamonds{
+    width:25px;
+    height:25px;
+    border:1px solid #000;
+    transform:rotate(45deg);
+    position:absolute;
+    background:linear-gradient(60deg,#74ebd5,#acb6e5);
+
+  
+}
+    
+    .pos2 , .pos4,.pos6, .pos8 , .pos10 ,  .pos12 , .pos14 ,  .pos16 , .pos18 ,  .pos20 , .pos22 ,  .pos23 , .pos24{
+        display:none;
+    }
+
+
+    
+}
+
