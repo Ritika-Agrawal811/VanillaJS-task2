@@ -211,8 +211,8 @@ input::placeholder{
     padding: 20px 30px 30px 30px;
     background-color:rgba(0,0,0,0.3);
     position:absolute;
-    top:48%;
-    left:45%;
+    top:50%;
+    left:50%;
     transform:translate(-50%,-50%);
     border-radius:15px;
     
