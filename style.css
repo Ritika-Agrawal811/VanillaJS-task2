@@ -296,5 +296,26 @@ input::placeholder{
     p{
         font-size:14px;
     }
+    
+    input{
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+    height:32px;
+    width:200px;
+    box-shadow:1px 1px 5px rgba(255,255,255,0.5);
+    background:transparent;
+}
+
+input[type=submit]{
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:16px;
+    height:35px;
+    background:linear-gradient(60deg,#74ebd5,#acb6e5);
+    box-shadow: none;
+    
+}
 }
 
