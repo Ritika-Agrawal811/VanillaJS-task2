@@ -289,6 +289,12 @@ input::placeholder{
         display:none;
     }  
 
-    
+   h2{
+    font-size:32px;
+    color:#fff;
+} 
+    p{
+        font-size:14px;
+    }
 }
 
