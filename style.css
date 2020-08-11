@@ -207,7 +207,7 @@ input::placeholder{
 }
     
     .form{
-    width:230px;
+    width:250px;
     padding: 20px 30px 30px 30px;
     background-color:rgba(0,0,0,0.3);
     position:absolute;
@@ -264,7 +264,7 @@ input::placeholder{
 
 .sideDesign{
     position:absolute;
-    width:60px;
+    width:80px;
     border:1px solid #000;
     margin-left:195px;
     margin-top:-20px;
@@ -286,10 +286,6 @@ input::placeholder{
   
 }
     
-    .pos2 , .pos4,.pos6, .pos8 , .pos10 ,  .pos12 , .pos14 ,  .pos16 , .pos18 ,  .pos20 , .pos22 ,  .pos23 , .pos24{
-        display:none;
-    }
-
 
     
 }
