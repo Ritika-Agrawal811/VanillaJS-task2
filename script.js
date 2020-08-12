@@ -26,7 +26,7 @@ document.getElementById('submit').addEventListener('click',function(){
     
         if(!result){
             document.getElementById('errorname').innerHTML="*Include both First and Last name.";
-            fullname.style.borderBottom="2px solid red";
+            fullname.style.borderBottom="2px solid rgba(240,0,0,0.5)";
         }
         
         else{
@@ -40,7 +40,7 @@ document.getElementById('submit').addEventListener('click',function(){
     
     if(emailID==""){
        document.getElementById('erroremail').innerHTML="*Field cannot be empty";
-        email.style.borderBottom="2px solid red";
+        email.style.borderBottom="2px solid rgba(240,0,0,0.5)";
    }
     
     else if(emailID){
@@ -49,7 +49,7 @@ document.getElementById('submit').addEventListener('click',function(){
     
         if(!result){
             document.getElementById('erroremail').innerHTML="*Invalid email";
-            email.style.borderBottom="2px solid red";
+            email.style.borderBottom="2px solid rgba(240,0,0,0.5)";
         }
         
         else{
@@ -62,7 +62,7 @@ document.getElementById('submit').addEventListener('click',function(){
     
       if(phone==""){
        document.getElementById('errornumber').innerHTML="*Field cannot be empty";
-        phoneNumber.style.borderBottom="2px solid red";
+        phoneNumber.style.borderBottom="2px solid rgba(240,0,0,0.5)";
    }
     
     else if(phone){
@@ -71,7 +71,7 @@ document.getElementById('submit').addEventListener('click',function(){
     
         if(!result){
             document.getElementById('errornumber').innerHTML="*Include 14 digits starting with +";
-            phoneNumber.style.borderBottom="2px solid red";
+            phoneNumber.style.borderBottom="2px solid rgba(240,0,0,0.5)";
         }
         
         else{
@@ -85,12 +85,12 @@ document.getElementById('submit').addEventListener('click',function(){
     
       if(password1==""){
        document.getElementById('errorpassword').innerHTML="*Field cannot be empty";
-        password.style.borderBottom="2px solid red";
+        password.style.borderBottom="2px solid rgba(240,0,0,0.5)";
    }
     
     else if(password1){
         if(password1.length<=6){
-            password.style.borderBottom="2px solid red";
+            password.style.borderBottom="2px solid rgba(240,0,0,0.5)";
             document.getElementById('errorpassword').innerHTML="password must be more than 6";  
         }
         
@@ -103,14 +103,14 @@ document.getElementById('submit').addEventListener('click',function(){
     
        if(repeatPassword==""){
        document.getElementById('errorsamepassword').innerHTML="*Field cannot be empty";
-        repeat_password.style.borderBottom="2px solid red";
+        repeat_password.style.borderBottom="2px solid rgba(240,0,0,0.5)";
       }
     
     else if(repeatPassword)
         {
             if(password1!= repeatPassword){
             document.getElementById('errorsamepassword').innerHTML="*Doesn't match the password above";
-            repeat_password.style.borderBottom="2px solid red";
+            repeat_password.style.borderBottom="2px solid rgba(240,0,0,0.5)";
             }
             
             else{
