@@ -16,7 +16,7 @@ document.getElementById('submit').addEventListener('click',function(){
     
    if(name==""){
        document.getElementById('errorname').innerHTML="*Field cannot be empty"
-       fullname.style.borderBottom="2px solid red";
+       fullname.style.borderBottom="2px solid rgba(240,0,0,0.5)";
        
    }
     
